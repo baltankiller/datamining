@@ -1,0 +1,12 @@
+﻿variable,meaning,values,definition,role
+age_band,연령대,"60s=60대, 70plus=70대 이상",2025년과 맞추기 위해 실제 나이 대신 공통 연령대 사용,predictor
+region,거주 시도,r01~r17,지역명은 통합자료의 region_name 또는 코드북 확인,predictor
+income_band6,가구 월평균 소득,100만원 미만 / 100~199 / 200~299 / 300~399 / 400~599 / 600만원 이상,명목형 6구간. 2019~2020년의 다른 구간을 정확히 묶어 통일,predictor
+pc_access,필요시 PC 이용 가능 여부,no / yes,데스크톱·노트북 중 하나 이상 이용 가능,predictor
+smartphone_access,스마트폰 이용 가능 여부,no / yes,휴대전화 응답 슬롯 중 하나라도 스마트폰,predictor
+self_efficacy_mean3,디지털기기 이용 효능감,1~4점,자신감 및 사용법 습득 3문항의 완전응답 평균,predictor
+training_experience,정보화교육 참여 경험,no / yes,"Q30=1은 yes, Q30=2~4는 no. 2024~2025년만 확인",predictor
+sex,성별,male / female,ADQ2,predictor
+school_level,최종 학력,초등졸 이하 / 중졸 / 고졸 / 대졸 이상,ADQ4. 네 가지 명목 범주,predictor
+residence_type,거주지 형태,dong / eup_myeon,ADQ103. 동 / 읍면,predictor
+risk_class,연구용 소외 등급,at_risk / general,14문항 평균 2.5 미만은 소외. 공식 NIA 등급 아님,target

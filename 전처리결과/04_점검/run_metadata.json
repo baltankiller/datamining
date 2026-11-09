@@ -1,0 +1,819 @@
+{
+  "min_age": 60,
+  "threshold": 2.5,
+  "required_ability_items": 14,
+  "age60_total": 12173,
+  "main_total": 3557,
+  "model_features": [
+    "age_band",
+    "region",
+    "income_band6",
+    "pc_access",
+    "smartphone_access",
+    "self_efficacy_mean3",
+    "training_experience",
+    "sex",
+    "school_level",
+    "residence_type"
+  ],
+  "summary": [
+    {
+      "year": 2019,
+      "raw_rows": 2300,
+      "raw_columns": 270,
+      "age60_rows": 1659,
+      "labelled_age60": 1654,
+      "at_risk": 1303,
+      "general": 351,
+      "unlabelled": 5,
+      "blank_cells": 201705,
+      "declared_missing_cells": 0,
+      "duplicate_ids": 0,
+      "duplicate_response_rows": 1,
+      "age_format": "years",
+      "encoding": "utf-8-sig",
+      "source_file": "한국지능정보사회진흥원_2019년 디지털정보격차실태조사 Raw Data(공개용)_20191231\\2019DATA_7장노년_KEY작업.csv",
+      "codebook": "한국지능정보사회진흥원_2019년 디지털정보격차실태조사 Raw Data_코드북(공개용)_20191231\\2019DATA_7고령층.xlsx"
+    },
+    {
+      "year": 2020,
+      "raw_rows": 2300,
+      "raw_columns": 215,
+      "age60_rows": 1692,
+      "labelled_age60": 1692,
+      "at_risk": 1353,
+      "general": 339,
+      "unlabelled": 0,
+      "blank_cells": 150168,
+      "declared_missing_cells": 0,
+      "duplicate_ids": 0,
+      "duplicate_response_rows": 0,
+      "age_format": "years",
+      "encoding": "utf-8-sig",
+      "source_file": "한국지능정보사회진흥원_2020년 디지털정보격차실태조사 통계자료(공개용)_20201231\\2020DATA_7고령층.csv",
+      "codebook": "한국지능정보사회진흥원_2020년 디지털정보격차실태조사 통계자료_코드북(공개용)_20201231\\2020DATA_7고령층_파일설계서.xlsx"
+    },
+    {
+      "year": 2021,
+      "raw_rows": 2300,
+      "raw_columns": 224,
+      "age60_rows": 1746,
+      "labelled_age60": 1746,
+      "at_risk": 1375,
+      "general": 371,
+      "unlabelled": 0,
+      "blank_cells": 140078,
+      "declared_missing_cells": 0,
+      "duplicate_ids": 0,
+      "duplicate_response_rows": 0,
+      "age_format": "years",
+      "encoding": "utf-8-sig",
+      "source_file": "한국지능정보사회진흥원_2021년 디지털정보격차실태조사 통계자료(공개용)_20220830\\2021고령층.csv",
+      "codebook": "한국지능정보사회진흥원_2021년 디지털정보격차실태조사 통계자료_코드북(공개용)_20220830\\2021고령층.xlsx"
+    },
+    {
+      "year": 2022,
+      "raw_rows": 2300,
+      "raw_columns": 234,
+      "age60_rows": 1737,
+      "labelled_age60": 1737,
+      "at_risk": 1353,
+      "general": 384,
+      "unlabelled": 0,
+      "blank_cells": 136491,
+      "declared_missing_cells": 0,
+      "duplicate_ids": 0,
+      "duplicate_response_rows": 0,
+      "age_format": "years",
+      "encoding": "utf-8-sig",
+      "source_file": "한국지능정보사회진흥원_2022년 디지털정보격차실태조사 통계자료(공개용)_20221231\\2022 디지털정보격차 raw data_7고령층.csv",
+      "codebook": "한국지능정보사회진흥원_2022년 디지털정보격차실태조사 통계자료_코드북(공개용)_20221231\\7. 고령층.xlsx"
+    },
+    {
+      "year": 2023,
+      "raw_rows": 2300,
+      "raw_columns": 249,
+      "age60_rows": 1782,
+      "labelled_age60": 1782,
+      "at_risk": 1359,
+      "general": 423,
+      "unlabelled": 0,
+      "blank_cells": 162838,
+      "declared_missing_cells": 0,
+      "duplicate_ids": 0,
+      "duplicate_response_rows": 0,
+      "age_format": "years",
+      "encoding": "utf-8-sig",
+      "source_file": "2023 디지털정보격차 실태조사_raw data(공개용)\\7 고령층_raw data.csv",
+      "codebook": "2023 디지털정보격차 실태조사_코드북(공개용)\\7. 고령층_파일설계서.xlsx"
+    },
+    {
+      "year": 2024,
+      "raw_rows": 2300,
+      "raw_columns": 239,
+      "age60_rows": 1775,
+      "labelled_age60": 1775,
+      "at_risk": 1396,
+      "general": 379,
+      "unlabelled": 0,
+      "blank_cells": 115264,
+      "declared_missing_cells": 0,
+      "duplicate_ids": 0,
+      "duplicate_response_rows": 0,
+      "age_format": "years",
+      "encoding": "xlsx",
+      "source_file": "한국지능정보사회진흥원_디지털정보격차실태조사 통계자료_20241231\\2024 디지털정보격차 실태조사_7) 고령층_data.xlsx",
+      "codebook": "한국지능정보사회진흥원_디지털정보격차실태조사 통계자료_20241231\\2024 디지털정보격차 실태조사_7) 고령층_data.xlsx"
+    },
+    {
+      "year": 2025,
+      "raw_rows": 2300,
+      "raw_columns": 244,
+      "age60_rows": 1782,
+      "labelled_age60": 1782,
+      "at_risk": 1367,
+      "general": 415,
+      "unlabelled": 0,
+      "blank_cells": 120628,
+      "declared_missing_cells": 0,
+      "duplicate_ids": 0,
+      "duplicate_response_rows": 0,
+      "age_format": "age_band",
+      "encoding": "xlsx",
+      "source_file": "한국지능정보사회진흥원_디지털정보격차실태조사 통계자료_20251231\\2025년 디지털정보격차 실태조사_7) 고령층_DATA.xlsx",
+      "codebook": "한국지능정보사회진흥원_디지털정보격차실태조사 통계자료_20251231\\2025년 디지털정보격차 실태조사_7) 고령층_DATA.xlsx"
+    }
+  ],
+  "variable_dictionary": [
+    {
+      "variable": "age_band",
+      "meaning": "연령대",
+      "values": "60s=60대, 70plus=70대 이상",
+      "definition": "2025년과 맞추기 위해 실제 나이 대신 공통 연령대 사용",
+      "role": "predictor"
+    },
+    {
+      "variable": "region",
+      "meaning": "거주 시도",
+      "values": "r01~r17",
+      "definition": "지역명은 통합자료의 region_name 또는 코드북 확인",
+      "role": "predictor"
+    },
+    {
+      "variable": "income_band6",
+      "meaning": "가구 월평균 소득",
+      "values": "100만원 미만 / 100~199 / 200~299 / 300~399 / 400~599 / 600만원 이상",
+      "definition": "명목형 6구간. 2019~2020년의 다른 구간을 정확히 묶어 통일",
+      "role": "predictor"
+    },
+    {
+      "variable": "pc_access",
+      "meaning": "필요시 PC 이용 가능 여부",
+      "values": "no / yes",
+      "definition": "데스크톱·노트북 중 하나 이상 이용 가능",
+      "role": "predictor"
+    },
+    {
+      "variable": "smartphone_access",
+      "meaning": "스마트폰 이용 가능 여부",
+      "values": "no / yes",
+      "definition": "휴대전화 응답 슬롯 중 하나라도 스마트폰",
+      "role": "predictor"
+    },
+    {
+      "variable": "self_efficacy_mean3",
+      "meaning": "디지털기기 이용 효능감",
+      "values": "1~4점",
+      "definition": "자신감 및 사용법 습득 3문항의 완전응답 평균",
+      "role": "predictor"
+    },
+    {
+      "variable": "training_experience",
+      "meaning": "정보화교육 참여 경험",
+      "values": "no / yes",
+      "definition": "Q30=1은 yes, Q30=2~4는 no. 2024~2025년만 확인",
+      "role": "predictor"
+    },
+    {
+      "variable": "sex",
+      "meaning": "성별",
+      "values": "male / female",
+      "definition": "ADQ2",
+      "role": "predictor"
+    },
+    {
+      "variable": "school_level",
+      "meaning": "최종 학력",
+      "values": "초등졸 이하 / 중졸 / 고졸 / 대졸 이상",
+      "definition": "ADQ4. 네 가지 명목 범주",
+      "role": "predictor"
+    },
+    {
+      "variable": "residence_type",
+      "meaning": "거주지 형태",
+      "values": "dong / eup_myeon",
+      "definition": "ADQ103. 동 / 읍면",
+      "role": "predictor"
+    },
+    {
+      "variable": "risk_class",
+      "meaning": "연구용 소외 등급",
+      "values": "at_risk / general",
+      "definition": "14문항 평균 2.5 미만은 소외. 공식 NIA 등급 아님",
+      "role": "target"
+    }
+  ],
+  "source_files": 84,
+  "originals_unchanged": true,
+  "issues": [
+    {
+      "year": 2019,
+      "variable": "Q4A1",
+      "kind": "code_not_in_codebook",
+      "value": "9",
+      "count": 5,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "Q4A2",
+      "kind": "code_not_in_codebook",
+      "value": "9",
+      "count": 5,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "Q4A3",
+      "kind": "code_not_in_codebook",
+      "value": "9",
+      "count": 5,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "Q4A4",
+      "kind": "code_not_in_codebook",
+      "value": "9",
+      "count": 5,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "Q4A5",
+      "kind": "code_not_in_codebook",
+      "value": "9",
+      "count": 5,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "Q4A6",
+      "kind": "code_not_in_codebook",
+      "value": "9",
+      "count": 5,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "Q4A7",
+      "kind": "code_not_in_codebook",
+      "value": "9",
+      "count": 5,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "Q5A1",
+      "kind": "code_not_in_codebook",
+      "value": "9",
+      "count": 1,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "Q5A2",
+      "kind": "code_not_in_codebook",
+      "value": "9",
+      "count": 1,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "Q5A3",
+      "kind": "code_not_in_codebook",
+      "value": "9",
+      "count": 1,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "Q5A4",
+      "kind": "code_not_in_codebook",
+      "value": "9",
+      "count": 1,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "Q5A5",
+      "kind": "code_not_in_codebook",
+      "value": "9",
+      "count": 1,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "Q5A6",
+      "kind": "code_not_in_codebook",
+      "value": "9",
+      "count": 1,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "Q5A7",
+      "kind": "code_not_in_codebook",
+      "value": "9",
+      "count": 1,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "Q6A1",
+      "kind": "code_not_in_codebook",
+      "value": "9",
+      "count": 2,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "Q6A2",
+      "kind": "code_not_in_codebook",
+      "value": "9",
+      "count": 2,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "Q6A3",
+      "kind": "code_not_in_codebook",
+      "value": "9",
+      "count": 2,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "Q6A4",
+      "kind": "code_not_in_codebook",
+      "value": "9",
+      "count": 2,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "Q8A1",
+      "kind": "code_not_in_codebook",
+      "value": "9",
+      "count": 7,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "Q8A2",
+      "kind": "code_not_in_codebook",
+      "value": "9",
+      "count": 7,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "Q8A3",
+      "kind": "code_not_in_codebook",
+      "value": "9",
+      "count": 7,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "Q8A4",
+      "kind": "code_not_in_codebook",
+      "value": "9",
+      "count": 7,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "Q9A1",
+      "kind": "code_not_in_codebook",
+      "value": "9",
+      "count": 8,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "Q9A2",
+      "kind": "code_not_in_codebook",
+      "value": "9",
+      "count": 8,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "Q9A3",
+      "kind": "code_not_in_codebook",
+      "value": "9",
+      "count": 8,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "Q9A4",
+      "kind": "code_not_in_codebook",
+      "value": "9",
+      "count": 8,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "Q9A5",
+      "kind": "code_not_in_codebook",
+      "value": "9",
+      "count": 8,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "Q10A1",
+      "kind": "code_not_in_codebook",
+      "value": "9",
+      "count": 8,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "Q10A2",
+      "kind": "code_not_in_codebook",
+      "value": "9",
+      "count": 8,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "Q10A3",
+      "kind": "code_not_in_codebook",
+      "value": "9",
+      "count": 8,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "Q10A4",
+      "kind": "code_not_in_codebook",
+      "value": "9",
+      "count": 8,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "Q11A1",
+      "kind": "code_not_in_codebook",
+      "value": "9",
+      "count": 9,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "Q11A2",
+      "kind": "code_not_in_codebook",
+      "value": "9",
+      "count": 9,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "Q12A1",
+      "kind": "code_not_in_codebook",
+      "value": "9",
+      "count": 9,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "Q12A2",
+      "kind": "code_not_in_codebook",
+      "value": "9",
+      "count": 9,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "Q13A1",
+      "kind": "code_not_in_codebook",
+      "value": "9",
+      "count": 9,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "Q13A2",
+      "kind": "code_not_in_codebook",
+      "value": "9",
+      "count": 9,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "Q13A3",
+      "kind": "code_not_in_codebook",
+      "value": "9",
+      "count": 9,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "Q13A4",
+      "kind": "code_not_in_codebook",
+      "value": "9",
+      "count": 9,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "Q14A1",
+      "kind": "code_not_in_codebook",
+      "value": "9",
+      "count": 9,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "Q14A2",
+      "kind": "code_not_in_codebook",
+      "value": "9",
+      "count": 9,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "Q14A3",
+      "kind": "code_not_in_codebook",
+      "value": "9",
+      "count": 9,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "Q14A4",
+      "kind": "code_not_in_codebook",
+      "value": "9",
+      "count": 9,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "Q31A1",
+      "kind": "code_not_in_codebook",
+      "value": "9",
+      "count": 352,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "Q32A01",
+      "kind": "code_not_in_codebook",
+      "value": "99",
+      "count": 1,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "ADQ2",
+      "kind": "code_not_in_codebook",
+      "value": "*",
+      "count": 123,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "ADQ3",
+      "kind": "code_not_in_codebook",
+      "value": "*",
+      "count": 123,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "ADQ3A",
+      "kind": "code_not_in_codebook",
+      "value": "9",
+      "count": 1,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "ADQ101",
+      "kind": "code_not_in_codebook",
+      "value": "*",
+      "count": 123,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2019,
+      "variable": "ADQ2",
+      "kind": "candidate_invalid",
+      "value": "{\"*\": 123}",
+      "count": 123,
+      "action": "분석용 파생변수만 결측으로 처리, 원문항 유지"
+    },
+    {
+      "year": 2019,
+      "variable": "ADQ101",
+      "kind": "candidate_invalid",
+      "value": "{\"*\": 123}",
+      "count": 123,
+      "action": "분석용 파생변수만 결측으로 처리, 원문항 유지"
+    },
+    {
+      "year": 2019,
+      "variable": "Q4A1",
+      "kind": "candidate_invalid",
+      "value": "{\"9\": 5}",
+      "count": 5,
+      "action": "분석용 파생변수만 결측으로 처리, 원문항 유지"
+    },
+    {
+      "year": 2019,
+      "variable": "Q4A2",
+      "kind": "candidate_invalid",
+      "value": "{\"9\": 5}",
+      "count": 5,
+      "action": "분석용 파생변수만 결측으로 처리, 원문항 유지"
+    },
+    {
+      "year": 2019,
+      "variable": "Q4A3",
+      "kind": "candidate_invalid",
+      "value": "{\"9\": 5}",
+      "count": 5,
+      "action": "분석용 파생변수만 결측으로 처리, 원문항 유지"
+    },
+    {
+      "year": 2019,
+      "variable": "Q4A4",
+      "kind": "candidate_invalid",
+      "value": "{\"9\": 5}",
+      "count": 5,
+      "action": "분석용 파생변수만 결측으로 처리, 원문항 유지"
+    },
+    {
+      "year": 2019,
+      "variable": "Q4A5",
+      "kind": "candidate_invalid",
+      "value": "{\"9\": 5}",
+      "count": 5,
+      "action": "분석용 파생변수만 결측으로 처리, 원문항 유지"
+    },
+    {
+      "year": 2019,
+      "variable": "Q4A6",
+      "kind": "candidate_invalid",
+      "value": "{\"9\": 5}",
+      "count": 5,
+      "action": "분석용 파생변수만 결측으로 처리, 원문항 유지"
+    },
+    {
+      "year": 2019,
+      "variable": "Q4A7",
+      "kind": "candidate_invalid",
+      "value": "{\"9\": 5}",
+      "count": 5,
+      "action": "분석용 파생변수만 결측으로 처리, 원문항 유지"
+    },
+    {
+      "year": 2019,
+      "variable": "Q5A1",
+      "kind": "candidate_invalid",
+      "value": "{\"9\": 1}",
+      "count": 1,
+      "action": "분석용 파생변수만 결측으로 처리, 원문항 유지"
+    },
+    {
+      "year": 2019,
+      "variable": "Q5A2",
+      "kind": "candidate_invalid",
+      "value": "{\"9\": 1}",
+      "count": 1,
+      "action": "분석용 파생변수만 결측으로 처리, 원문항 유지"
+    },
+    {
+      "year": 2019,
+      "variable": "Q5A3",
+      "kind": "candidate_invalid",
+      "value": "{\"9\": 1}",
+      "count": 1,
+      "action": "분석용 파생변수만 결측으로 처리, 원문항 유지"
+    },
+    {
+      "year": 2019,
+      "variable": "Q5A4",
+      "kind": "candidate_invalid",
+      "value": "{\"9\": 1}",
+      "count": 1,
+      "action": "분석용 파생변수만 결측으로 처리, 원문항 유지"
+    },
+    {
+      "year": 2019,
+      "variable": "Q5A5",
+      "kind": "candidate_invalid",
+      "value": "{\"9\": 1}",
+      "count": 1,
+      "action": "분석용 파생변수만 결측으로 처리, 원문항 유지"
+    },
+    {
+      "year": 2019,
+      "variable": "Q5A6",
+      "kind": "candidate_invalid",
+      "value": "{\"9\": 1}",
+      "count": 1,
+      "action": "분석용 파생변수만 결측으로 처리, 원문항 유지"
+    },
+    {
+      "year": 2019,
+      "variable": "Q5A7",
+      "kind": "candidate_invalid",
+      "value": "{\"9\": 1}",
+      "count": 1,
+      "action": "분석용 파생변수만 결측으로 처리, 원문항 유지"
+    },
+    {
+      "year": 2020,
+      "variable": "Q2A3",
+      "kind": "code_not_in_codebook",
+      "value": "3",
+      "count": 1,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2020,
+      "variable": "Q3",
+      "kind": "code_not_in_codebook",
+      "value": "3",
+      "count": 1,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2025,
+      "variable": "ADQ8_1T",
+      "kind": "code_not_in_codebook",
+      "value": "3",
+      "count": 337,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2025,
+      "variable": "ADQ8_1T",
+      "kind": "code_not_in_codebook",
+      "value": "4",
+      "count": 157,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2025,
+      "variable": "ADQ8_1T",
+      "kind": "code_not_in_codebook",
+      "value": "5",
+      "count": 16,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2025,
+      "variable": "ADQ8_1T",
+      "kind": "code_not_in_codebook",
+      "value": "6",
+      "count": 1,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    },
+    {
+      "year": 2025,
+      "variable": "ADQ8_1T",
+      "kind": "code_not_in_codebook",
+      "value": "7",
+      "count": 1,
+      "action": "원문항 유지. 분석용 후보는 허용범위를 별도로 검증"
+    }
+  ],
+  "main_missingness": {
+    "age_band": 0,
+    "region": 0,
+    "income_band6": 0,
+    "pc_access": 0,
+    "smartphone_access": 0,
+    "self_efficacy_mean3": 0,
+    "training_experience": 0,
+    "sex": 0,
+    "school_level": 0,
+    "residence_type": 0,
+    "risk_class": 0
+  }
+}

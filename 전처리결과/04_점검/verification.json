@@ -1,0 +1,71 @@
+{
+  "source_reconciliation": [
+    {
+      "year": 2019,
+      "rows_reconciled": 1659,
+      "labels_recomputed": true
+    },
+    {
+      "year": 2020,
+      "rows_reconciled": 1692,
+      "labels_recomputed": true
+    },
+    {
+      "year": 2021,
+      "rows_reconciled": 1746,
+      "labels_recomputed": true
+    },
+    {
+      "year": 2022,
+      "rows_reconciled": 1737,
+      "labels_recomputed": true
+    },
+    {
+      "year": 2023,
+      "rows_reconciled": 1782,
+      "labels_recomputed": true
+    },
+    {
+      "year": 2024,
+      "rows_reconciled": 1775,
+      "labels_recomputed": true
+    },
+    {
+      "year": 2025,
+      "rows_reconciled": 1782,
+      "labels_recomputed": true
+    }
+  ],
+  "models": {
+    "train_2024": {
+      "rows": 1775,
+      "columns": 11,
+      "class_counts": {
+        "at_risk": 1396,
+        "general": 379
+      },
+      "arff_matches_csv": true
+    },
+    "test_2025": {
+      "rows": 1782,
+      "columns": 11,
+      "class_counts": {
+        "at_risk": 1367,
+        "general": 415
+      },
+      "arff_matches_csv": true
+    },
+    "combined_2024_2025": {
+      "rows": 3557,
+      "columns": 11,
+      "class_counts": {
+        "at_risk": 2763,
+        "general": 794
+      },
+      "arff_matches_csv": true
+    }
+  },
+  "source_hashes_unchanged": true,
+  "xlsx_totals_reopened": true,
+  "temporal_split_verified": true
+}
