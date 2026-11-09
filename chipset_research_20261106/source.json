@@ -1,0 +1,455 @@
+{
+  "filename": "칩셋명 정보 정리.xlsx",
+  "sheet": "시트1",
+  "headers": [
+    "칩셋 코드",
+    "칩셋명",
+    "패키지 유형",
+    "내부 검출 가능",
+    "추가정보"
+  ],
+  "requested": [
+    "01",
+    "02",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "33",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55"
+  ],
+  "rows": {
+    "01": {
+      "sourceRow": 2,
+      "values": [
+        "01",
+        "ATSAMD21G18A",
+        "QFP",
+        "O",
+        "재측정"
+      ]
+    },
+    "02": {
+      "sourceRow": 3,
+      "values": [
+        "02",
+        "ESP32S3",
+        "QFN",
+        "O",
+        null
+      ]
+    },
+    "13": {
+      "sourceRow": 14,
+      "values": [
+        "13",
+        "CSD18511Q5A",
+        "TDFN",
+        "O",
+        null
+      ]
+    },
+    "14": {
+      "sourceRow": 15,
+      "values": [
+        "14",
+        "CSD17308Q3",
+        "TDFN",
+        "O",
+        null
+      ]
+    },
+    "15": {
+      "sourceRow": 16,
+      "values": [
+        "15",
+        "CSD18543Q3A",
+        "VDFN",
+        "O",
+        null
+      ]
+    },
+    "16": {
+      "sourceRow": 17,
+      "values": [
+        "16",
+        "DI100N10PQ-AQ",
+        "QFN",
+        "O",
+        null
+      ]
+    },
+    "17": {
+      "sourceRow": 18,
+      "values": [
+        "17",
+        "DI070P04PQ-AQ",
+        "TDFN",
+        "O",
+        null
+      ]
+    },
+    "19": {
+      "sourceRow": 20,
+      "values": [
+        "19",
+        "FDMS0308ASCT-ND",
+        "TDFN",
+        "O",
+        null
+      ]
+    },
+    "20": {
+      "sourceRow": 21,
+      "values": [
+        "20",
+        "FDMS4435BZ",
+        "TDFN",
+        "O",
+        null
+      ]
+    },
+    "21": {
+      "sourceRow": 22,
+      "values": [
+        "21",
+        "FNV6015C-RA",
+        "QFN",
+        "O",
+        null
+      ]
+    },
+    "22": {
+      "sourceRow": 23,
+      "values": [
+        "22",
+        "1707-TP65H150BG4JSG-TR",
+        "PQFN",
+        "O",
+        "재측정"
+      ]
+    },
+    "23": {
+      "sourceRow": 24,
+      "values": [
+        "23",
+        "GANE1R8-100QBAZ",
+        "VQFN",
+        "O",
+        null
+      ]
+    },
+    "25": {
+      "sourceRow": 26,
+      "values": [
+        "25",
+        "IRFH5015TRPBF",
+        null,
+        null,
+        null
+      ]
+    },
+    "26": {
+      "sourceRow": 27,
+      "values": [
+        "26",
+        "FCMT125N65S30SCT-ND",
+        null,
+        null,
+        null
+      ]
+    },
+    "27": {
+      "sourceRow": 28,
+      "values": [
+        "27",
+        "FCMT360N65S30SCT-ND",
+        null,
+        null,
+        null
+      ]
+    },
+    "28": {
+      "sourceRow": 29,
+      "values": [
+        "28",
+        "DIO25N20PQ",
+        null,
+        null,
+        null
+      ]
+    },
+    "29": {
+      "sourceRow": 30,
+      "values": [
+        "29",
+        "NTMFS5C604NLT1G",
+        null,
+        null,
+        null
+      ]
+    },
+    "30": {
+      "sourceRow": 31,
+      "values": [
+        "30",
+        "IRFH5300TRPBF",
+        null,
+        null,
+        null
+      ]
+    },
+    "31": {
+      "sourceRow": 32,
+      "values": [
+        "31",
+        "FDMS86263P",
+        null,
+        null,
+        null
+      ]
+    },
+    "33": {
+      "sourceRow": 34,
+      "values": [
+        "33",
+        "NV6015C-RA",
+        null,
+        null,
+        null
+      ]
+    },
+    "36": {
+      "sourceRow": 37,
+      "values": [
+        "36",
+        "TPH5200FNH",
+        null,
+        null,
+        null
+      ]
+    },
+    "37": {
+      "sourceRow": 38,
+      "values": [
+        "37",
+        "NV6029",
+        null,
+        null,
+        null
+      ]
+    },
+    "38": {
+      "sourceRow": 39,
+      "values": [
+        "38",
+        "TSM056NH04LCRRLGCT-ND",
+        null,
+        null,
+        null
+      ]
+    },
+    "39": {
+      "sourceRow": 40,
+      "values": [
+        "39",
+        "CDF56G6511N TR13 PBFREE",
+        null,
+        null,
+        null
+      ]
+    },
+    "40": {
+      "sourceRow": 41,
+      "values": [
+        "40",
+        "AON6266E",
+        null,
+        null,
+        null
+      ]
+    },
+    "41": {
+      "sourceRow": 42,
+      "values": [
+        "41",
+        "NP20P06YLG-E1-AY",
+        null,
+        null,
+        null
+      ]
+    },
+    "42": {
+      "sourceRow": 43,
+      "values": [
+        "42",
+        "NVMTS4D3N15MC",
+        null,
+        null,
+        null
+      ]
+    },
+    "43": {
+      "sourceRow": 44,
+      "values": [
+        "43",
+        "FDMS5672",
+        null,
+        null,
+        null
+      ]
+    },
+    "44": {
+      "sourceRow": 45,
+      "values": [
+        "44",
+        "TPHR9003NL1,LQ",
+        null,
+        null,
+        null
+      ]
+    },
+    "45": {
+      "sourceRow": 46,
+      "values": [
+        "45",
+        "TSM280NB06LCR RLG",
+        null,
+        null,
+        null
+      ]
+    },
+    "46": {
+      "sourceRow": 47,
+      "values": [
+        "46",
+        "TPH1R712MD,L1Q",
+        null,
+        null,
+        null
+      ]
+    },
+    "47": {
+      "sourceRow": 48,
+      "values": [
+        "47",
+        "TPH3R704PL,L1Q",
+        null,
+        null,
+        null
+      ]
+    },
+    "48": {
+      "sourceRow": 49,
+      "values": [
+        "48",
+        "TP65H480G4JSG-TR",
+        null,
+        null,
+        null
+      ]
+    },
+    "49": {
+      "sourceRow": 50,
+      "values": [
+        "49",
+        "TP65H300G4LSGB-TR",
+        null,
+        null,
+        null
+      ]
+    },
+    "50": {
+      "sourceRow": 51,
+      "values": [
+        "50",
+        "TP65H480G4JSGB-TR",
+        null,
+        null,
+        null
+      ]
+    },
+    "51": {
+      "sourceRow": 52,
+      "values": [
+        "51",
+        "TSM170N06PQ56 RLG",
+        null,
+        null,
+        null
+      ]
+    },
+    "52": {
+      "sourceRow": 53,
+      "values": [
+        "52",
+        "NTMFS0D5N04XMT1G",
+        null,
+        null,
+        null
+      ]
+    },
+    "53": {
+      "sourceRow": 54,
+      "values": [
+        "53",
+        "XPH4R714MC,L1XHQ",
+        null,
+        null,
+        null
+      ]
+    },
+    "54": {
+      "sourceRow": 55,
+      "values": [
+        "54",
+        "FDMS4D4N08C",
+        null,
+        null,
+        null
+      ]
+    },
+    "55": {
+      "sourceRow": 56,
+      "values": [
+        "55",
+        "NVMFS3D0P04M8LT1G",
+        null,
+        null,
+        null
+      ]
+    }
+  }
+}

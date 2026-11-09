@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1280" height="650" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1280 650" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1280" height="650"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-650)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="70" y="590" style="font-family: Malgun Gothic Bold; font-size: 32px;fill: rgb(9%,13%,18%); stroke:none;" transform="translate(0,1180) scale(1,-1)">모델별 분류 정확도</text>
+			<text x="70" y="540" style="font-family: Malgun Gothic; font-size: 20px;fill: rgb(7%,49%,50%); stroke:none;" transform="translate(0,1080) scale(1,-1)">로지스틱 회귀 81.9%  |  기준선 대비 +13.1%p  |  소외군 재현율 88.9%</text>
+			<g transform="">
+				<path d="M 100,150 L 1190,150 Z" style="stroke: rgb(90%,92%,94%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<path d="M 100,225 L 1190,225 Z" style="stroke: rgb(90%,92%,94%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<path d="M 100,300 L 1190,300 Z" style="stroke: rgb(90%,92%,94%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<path d="M 100,375 L 1190,375 Z" style="stroke: rgb(90%,92%,94%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<path d="M 100,450 L 1190,450 Z" style="stroke: rgb(90%,92%,94%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<g transform="">
+					<rect x="205.97222222222223" y="150.0" width="60.55555555555554" height="206.39999999999998" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(70%,75%,80%); fill-rule: evenodd;"/>
+					<rect x="478.47222222222223" y="150.0" width="60.5555555555556" height="245.70000000000005" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(7%,49%,50%); fill-rule: evenodd;"/>
+					<rect x="750.9722222222222" y="150.0" width="60.55555555555554" height="244.20000000000005" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(47%,57%,67%); fill-rule: evenodd;"/>
+					<rect x="1023.4722222222222" y="150.0" width="60.55555555555566" height="239.70000000000005" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(47%,57%,67%); fill-rule: evenodd;"/>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,236.25,368.4)">
+							<text x="-31.635742187499996" y="-8.8" style="font-family: Malgun Gothic Bold; font-size: 22px;fill: rgb(9%,13%,18%); stroke:none;" transform="translate(0,-17) scale(1,-1)">68.8%</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,508.75,407.7)">
+							<text x="-31.635742187499996" y="-8.8" style="font-family: Malgun Gothic Bold; font-size: 22px;fill: rgb(9%,13%,18%); stroke:none;" transform="translate(0,-17) scale(1,-1)">81.9%</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,781.25,406.2)">
+							<text x="-31.635742187499996" y="-8.8" style="font-family: Malgun Gothic Bold; font-size: 22px;fill: rgb(9%,13%,18%); stroke:none;" transform="translate(0,-17) scale(1,-1)">81.4%</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,1053.75,401.7)">
+							<text x="-31.635742187499996" y="-8.8" style="font-family: Malgun Gothic Bold; font-size: 22px;fill: rgb(9%,13%,18%); stroke:none;" transform="translate(0,-17) scale(1,-1)">79.9%</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 100,150 L 1190,150 Z" style="stroke: rgb(83%,87%,90%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform=""/>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,236.25,137)">
+							<text x="-24.0" y="-16.0" style="font-family: Malgun Gothic; font-size: 16px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-32) scale(1,-1)">ZeroR</text>
+							<text x="-24.0" y="-35.2" style="font-family: Malgun Gothic; font-size: 16px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-70) scale(1,-1)">기준선</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,508.75,137)">
+							<text x="-50.8125" y="-16.0" style="font-family: Malgun Gothic; font-size: 16px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-32) scale(1,-1)">Logistic</text>
+							<text x="-50.8125" y="-35.2" style="font-family: Malgun Gothic; font-size: 16px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-70) scale(1,-1)">로지스틱 회귀</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,781.25,137)">
+							<text x="-48.0" y="-16.0" style="font-family: Malgun Gothic; font-size: 16px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-32) scale(1,-1)">J48</text>
+							<text x="-48.0" y="-35.2" style="font-family: Malgun Gothic; font-size: 16px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-70) scale(1,-1)">의사결정나무</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,1053.75,137)">
+							<text x="-52.42578125" y="-16.0" style="font-family: Malgun Gothic; font-size: 16px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-32) scale(1,-1)">RandomForest</text>
+							<text x="-52.42578125" y="-35.2" style="font-family: Malgun Gothic; font-size: 16px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-70) scale(1,-1)">랜덤포레스트</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform=""/>
+					<g transform=""/>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,95,150)">
+							<text x="-19.4208984375" y="-5.600000000000001" style="font-family: Malgun Gothic; font-size: 14px;fill: rgb(40%,43%,52%); stroke:none;" transform="translate(0,-11) scale(1,-1)">0%</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,95,225)">
+							<text x="-27.1318359375" y="-5.600000000000001" style="font-family: Malgun Gothic; font-size: 14px;fill: rgb(40%,43%,52%); stroke:none;" transform="translate(0,-11) scale(1,-1)">25%</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,95,300)">
+							<text x="-27.1318359375" y="-5.600000000000001" style="font-family: Malgun Gothic; font-size: 14px;fill: rgb(40%,43%,52%); stroke:none;" transform="translate(0,-11) scale(1,-1)">50%</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,95,375)">
+							<text x="-27.1318359375" y="-5.600000000000001" style="font-family: Malgun Gothic; font-size: 14px;fill: rgb(40%,43%,52%); stroke:none;" transform="translate(0,-11) scale(1,-1)">75%</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,95,450)">
+							<text x="-34.8427734375" y="-5.600000000000001" style="font-family: Malgun Gothic; font-size: 14px;fill: rgb(40%,43%,52%); stroke:none;" transform="translate(0,-11) scale(1,-1)">100%</text>
+						</g>
+					</g>
+				</g>
+			</g>
+			<text x="70" y="55" style="font-family: Malgun Gothic; font-size: 13px;fill: rgb(40%,43%,52%); stroke:none;" transform="translate(0,110) scale(1,-1)">출처: 팀원 보고서의 Weka 10겹 교차검증 결과  ·  응답자 2,300명</text>
+			<text x="70" y="28" style="font-family: Malgun Gothic; font-size: 13px;fill: rgb(40%,43%,52%); stroke:none;" transform="translate(0,56) scale(1,-1)">정확도는 전체에서 맞힌 비율이며, 소외군 재현율은 실제 소외군에서 찾아낸 비율입니다.</text>
+		</g>
+	</g>
+</svg>

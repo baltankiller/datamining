@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1360" height="670" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1360 670" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1360" height="670"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-670)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="70" y="610" style="font-family: Malgun Gothic Bold; font-size: 32px;fill: rgb(9%,13%,18%); stroke:none;" transform="translate(0,1220) scale(1,-1)">연령과 학력에 따른 소외군 비율</text>
+			<text x="70" y="565" style="font-family: Malgun Gothic; font-size: 19px;fill: rgb(40%,43%,52%); stroke:none;" transform="translate(0,1130) scale(1,-1)">각 집단 안에서 소외군이 차지하는 비율  ·  원본 응답 2,300명 재집계</text>
+			<text x="85" y="510" style="font-family: Malgun Gothic Bold; font-size: 21px;fill: rgb(9%,13%,18%); stroke:none;" transform="translate(0,1020) scale(1,-1)">연령대별</text>
+			<g transform="">
+				<path d="M 95,165 L 585,165 Z" style="stroke: rgb(90%,92%,94%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<path d="M 95,234.318182 L 585,234.318182 Z" style="stroke: rgb(90%,92%,94%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<path d="M 95,303.636364 L 585,303.636364 Z" style="stroke: rgb(90%,92%,94%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<path d="M 95,372.954545 L 585,372.954545 Z" style="stroke: rgb(90%,92%,94%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<path d="M 95,442.272727 L 585,442.272727 Z" style="stroke: rgb(90%,92%,94%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<g transform="">
+					<rect x="158.51851851851853" y="165.0" width="36.296296296296305" height="107.5903825903826" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(47%,57%,67%); fill-rule: evenodd;"/>
+					<rect x="321.8518518518519" y="165.0" width="36.296296296296305" height="183.1875840861042" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(47%,57%,67%); fill-rule: evenodd;"/>
+					<rect x="485.1851851851852" y="165.0" width="36.296296296296305" height="251.071117877338" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(7%,49%,50%); fill-rule: evenodd;"/>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,176.666667,284.590383)">
+							<text x="-31.635742187499996" y="-8.8" style="font-family: Malgun Gothic Bold; font-size: 22px;fill: rgb(9%,13%,18%); stroke:none;" transform="translate(0,-17) scale(1,-1)">38.8%</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,340,360.187584)">
+							<text x="-31.635742187499996" y="-8.8" style="font-family: Malgun Gothic Bold; font-size: 22px;fill: rgb(9%,13%,18%); stroke:none;" transform="translate(0,-17) scale(1,-1)">66.1%</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,503.333333,428.071118)">
+							<text x="-31.635742187499996" y="-8.8" style="font-family: Malgun Gothic Bold; font-size: 22px;fill: rgb(9%,13%,18%); stroke:none;" transform="translate(0,-17) scale(1,-1)">90.6%</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 95,165 L 585,165 Z" style="stroke: rgb(83%,87%,90%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform=""/>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,176.666667,152)">
+							<text x="-28.32421875" y="-16.0" style="font-family: Malgun Gothic; font-size: 16px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-32) scale(1,-1)">50대</text>
+							<text x="-28.32421875" y="-35.2" style="font-family: Malgun Gothic; font-size: 16px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-70) scale(1,-1)">(n=518)</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,340,152)">
+							<text x="-28.32421875" y="-16.0" style="font-family: Malgun Gothic; font-size: 16px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-32) scale(1,-1)">60대</text>
+							<text x="-28.32421875" y="-35.2" style="font-family: Malgun Gothic; font-size: 16px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-70) scale(1,-1)">(n=946)</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,503.333333,152)">
+							<text x="-35.625" y="-16.0" style="font-family: Malgun Gothic; font-size: 16px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-32) scale(1,-1)">70대 이상</text>
+							<text x="-35.625" y="-35.2" style="font-family: Malgun Gothic; font-size: 16px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-70) scale(1,-1)">(n=836)</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform=""/>
+					<g transform=""/>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,90,165)">
+							<text x="-19.4208984375" y="-5.600000000000001" style="font-family: Malgun Gothic; font-size: 14px;fill: rgb(40%,43%,52%); stroke:none;" transform="translate(0,-11) scale(1,-1)">0%</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,90,234.318182)">
+							<text x="-27.1318359375" y="-5.600000000000001" style="font-family: Malgun Gothic; font-size: 14px;fill: rgb(40%,43%,52%); stroke:none;" transform="translate(0,-11) scale(1,-1)">25%</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,90,303.636364)">
+							<text x="-27.1318359375" y="-5.600000000000001" style="font-family: Malgun Gothic; font-size: 14px;fill: rgb(40%,43%,52%); stroke:none;" transform="translate(0,-11) scale(1,-1)">50%</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,90,372.954545)">
+							<text x="-27.1318359375" y="-5.600000000000001" style="font-family: Malgun Gothic; font-size: 14px;fill: rgb(40%,43%,52%); stroke:none;" transform="translate(0,-11) scale(1,-1)">75%</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,90,442.272727)">
+							<text x="-34.8427734375" y="-5.600000000000001" style="font-family: Malgun Gothic; font-size: 14px;fill: rgb(40%,43%,52%); stroke:none;" transform="translate(0,-11) scale(1,-1)">100%</text>
+						</g>
+					</g>
+				</g>
+			</g>
+			<text x="725" y="510" style="font-family: Malgun Gothic Bold; font-size: 21px;fill: rgb(9%,13%,18%); stroke:none;" transform="translate(0,1020) scale(1,-1)">학력별</text>
+			<g transform="">
+				<path d="M 735,165 L 1280,165 Z" style="stroke: rgb(90%,92%,94%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<path d="M 735,234.318182 L 1280,234.318182 Z" style="stroke: rgb(90%,92%,94%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<path d="M 735,303.636364 L 1280,303.636364 Z" style="stroke: rgb(90%,92%,94%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<path d="M 735,372.954545 L 1280,372.954545 Z" style="stroke: rgb(90%,92%,94%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<path d="M 735,442.272727 L 1280,442.272727 Z" style="stroke: rgb(90%,92%,94%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<g transform="">
+					<rect x="787.9861111111111" y="165.0" width="30.27777777777783" height="274.29130009775173" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(7%,49%,50%); fill-rule: evenodd;"/>
+					<rect x="924.2361111111111" y="165.0" width="30.27777777777783" height="257.42583732057415" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(7%,49%,50%); fill-rule: evenodd;"/>
+					<rect x="1060.486111111111" y="165.0" width="30.27777777777783" height="177.75079678251632" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(47%,57%,67%); fill-rule: evenodd;"/>
+					<rect x="1196.736111111111" y="165.0" width="30.27777777777783" height="78.08254963427379" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(47%,57%,67%); fill-rule: evenodd;"/>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,803.125,451.2913)">
+							<text x="-31.635742187499996" y="-8.8" style="font-family: Malgun Gothic Bold; font-size: 22px;fill: rgb(9%,13%,18%); stroke:none;" transform="translate(0,-17) scale(1,-1)">98.9%</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,939.375,434.425837)">
+							<text x="-31.635742187499996" y="-8.8" style="font-family: Malgun Gothic Bold; font-size: 22px;fill: rgb(9%,13%,18%); stroke:none;" transform="translate(0,-17) scale(1,-1)">92.8%</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,1075.625,354.750797)">
+							<text x="-31.635742187499996" y="-8.8" style="font-family: Malgun Gothic Bold; font-size: 22px;fill: rgb(9%,13%,18%); stroke:none;" transform="translate(0,-17) scale(1,-1)">64.1%</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,1211.875,255.08255)">
+							<text x="-31.635742187499996" y="-8.8" style="font-family: Malgun Gothic Bold; font-size: 22px;fill: rgb(9%,13%,18%); stroke:none;" transform="translate(0,-17) scale(1,-1)">28.2%</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 735,165 L 1280,165 Z" style="stroke: rgb(83%,87%,90%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform=""/>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,803.125,152)">
+							<text x="-34.8125" y="-16.0" style="font-family: Malgun Gothic; font-size: 16px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-32) scale(1,-1)">초졸 이하</text>
+							<text x="-34.8125" y="-35.2" style="font-family: Malgun Gothic; font-size: 16px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-70) scale(1,-1)">(n=279)</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,939.375,152)">
+							<text x="-28.32421875" y="-16.0" style="font-family: Malgun Gothic; font-size: 16px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-32) scale(1,-1)">중졸</text>
+							<text x="-28.32421875" y="-35.2" style="font-family: Malgun Gothic; font-size: 16px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-70) scale(1,-1)">(n=475)</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,1075.625,152)">
+							<text x="-34.48046875" y="-16.0" style="font-family: Malgun Gothic; font-size: 16px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-32) scale(1,-1)">고졸</text>
+							<text x="-34.48046875" y="-35.2" style="font-family: Malgun Gothic; font-size: 16px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-70) scale(1,-1)">(n=1,198)</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,1211.875,152)">
+							<text x="-34.8125" y="-16.0" style="font-family: Malgun Gothic; font-size: 16px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-32) scale(1,-1)">대졸 이상</text>
+							<text x="-34.8125" y="-35.2" style="font-family: Malgun Gothic; font-size: 16px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,-70) scale(1,-1)">(n=348)</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform=""/>
+					<g transform=""/>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,730,165)">
+							<text x="-19.4208984375" y="-5.600000000000001" style="font-family: Malgun Gothic; font-size: 14px;fill: rgb(40%,43%,52%); stroke:none;" transform="translate(0,-11) scale(1,-1)">0%</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,730,234.318182)">
+							<text x="-27.1318359375" y="-5.600000000000001" style="font-family: Malgun Gothic; font-size: 14px;fill: rgb(40%,43%,52%); stroke:none;" transform="translate(0,-11) scale(1,-1)">25%</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,730,303.636364)">
+							<text x="-27.1318359375" y="-5.600000000000001" style="font-family: Malgun Gothic; font-size: 14px;fill: rgb(40%,43%,52%); stroke:none;" transform="translate(0,-11) scale(1,-1)">50%</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,730,372.954545)">
+							<text x="-27.1318359375" y="-5.600000000000001" style="font-family: Malgun Gothic; font-size: 14px;fill: rgb(40%,43%,52%); stroke:none;" transform="translate(0,-11) scale(1,-1)">75%</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,730,442.272727)">
+							<text x="-34.8427734375" y="-5.600000000000001" style="font-family: Malgun Gothic; font-size: 14px;fill: rgb(40%,43%,52%); stroke:none;" transform="translate(0,-11) scale(1,-1)">100%</text>
+						</g>
+					</g>
+				</g>
+			</g>
+			<text x="70" y="60" style="font-family: Malgun Gothic; font-size: 13px;fill: rgb(40%,43%,52%); stroke:none;" transform="translate(0,120) scale(1,-1)">소외군 정의: Q8·Q9의 18문항 평균이 2.5점 미만  ·  가중치 미적용</text>
+			<text x="70" y="30" style="font-family: Malgun Gothic; font-size: 13px;fill: rgb(40%,43%,52%); stroke:none;" transform="translate(0,60) scale(1,-1)">집단별 단순 비교입니다. 다른 변수의 영향을 통제한 효과나 전국 고령층의 공식 소외율을 뜻하지 않습니다.</text>
+		</g>
+	</g>
+</svg>
